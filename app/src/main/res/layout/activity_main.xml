@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context="com.example.a300006812.myntrademo.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="800dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/myntra_logo" />
+
+    <EditText
+        android:id="@+id/tv_search"
+        android:padding="10dp"
+        android:hint="Enter search query here."
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/logo"
+        android:maxLines="1"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+
+    <!--<EditText-->
+        <!--android:id="@+id/price"-->
+        <!--android:hint="Enter price here."-->
+        <!--android:inputType="number"-->
+        <!--android:padding="10dp"-->
+        <!--android:maxLines="1"-->
+        <!--android:layout_below="@+id/name"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="50dp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/description"-->
+        <!--android:padding="10dp"-->
+        <!--android:maxLines="1"-->
+        <!--android:hint="Enter description here."-->
+        <!--android:layout_below="@+id/price"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="50dp" />-->
+
+    <Button
+        android:id="@+id/go_button"
+        android:background="@color/colorAccent"
+        android:elevation="10dp"
+        android:shadowRadius="5"
+        android:textColor="@color/white"
+        android:textAppearance="@style/Base.Theme.AppCompat.Light"
+        android:textSize="18sp"
+        android:layout_below="@+id/tv_search"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO"
+        android:textStyle="italic"/>
+</RelativeLayout>
