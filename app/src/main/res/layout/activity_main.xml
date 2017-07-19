@@ -5,47 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="@color/white"
+    android:background="@drawable/main_gradient"
     tools:context="com.example.a300006812.myntrademo.MainActivity">
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="800dp"
+        android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="120dp"
         android:src="@drawable/myntra_logo" />
 
     <EditText
         android:id="@+id/tv_search"
         android:padding="10dp"
-        android:hint="Enter search query here."
+        android:textColorHint="@color/grey"
+        android:textColor="@color/colorPrimaryDark"
+        android:hint="@string/search_hint"
+        android:backgroundTint="@color/colorPrimaryDark"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/logo"
         android:maxLines="1"
         android:layout_width="300dp"
         android:layout_height="50dp" />
-
-    <!--<EditText-->
-        <!--android:id="@+id/price"-->
-        <!--android:hint="Enter price here."-->
-        <!--android:inputType="number"-->
-        <!--android:padding="10dp"-->
-        <!--android:maxLines="1"-->
-        <!--android:layout_below="@+id/name"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:layout_width="300dp"-->
-        <!--android:layout_height="50dp" />-->
-
-    <!--<EditText-->
-        <!--android:id="@+id/description"-->
-        <!--android:padding="10dp"-->
-        <!--android:maxLines="1"-->
-        <!--android:hint="Enter description here."-->
-        <!--android:layout_below="@+id/price"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:layout_width="300dp"-->
-        <!--android:layout_height="50dp" />-->
 
     <Button
         android:id="@+id/go_button"
@@ -60,6 +42,6 @@
         android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="GO"
+        android:text="@string/search_button_string"
         android:textStyle="italic"/>
 </RelativeLayout>
