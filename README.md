@@ -37,7 +37,7 @@ compile 'com.github.bumptech.glide:glide:3.7.0'
 - Clone the project : `git clone "https://github.com/hriddhidey/Myntra-Demo.git"`.
 - Open [Android Studio](https://developer.android.com/studio/index.html), and import the root folder of the cloned repository as a project (_File > Open_). 
 - Gradle will perform a basic sync for project, and all dependencies. If gradle sync fails for lack of target SDK, kindly follow Android Studio's promopts to install the same.
-- Run application in AVD (_Android Virtual Device_) Emulator, or connect to phone, and use USB Debugging to run application on your phone.
+- Run application in [AVD (_Android Virtual Device_) Emulator](https://developer.android.com/studio/run/managing-avds.html), or connect to phone, and use USB Debugging to run application on your phone.
 
 ## Acknowledgements
-I would like to express sincere gratitude to [@amarjain07](https://github.com/amarjain07) and [@muditpant13](https://github.com/muditpant13) for their constant guidance and tutelage, without which embarking a journey into Android Dev would have been a lot more haphazard, and tedious.
+I would like to express sincere gratitude to [@anshul1235](https://github.com/anshul1235), [@amarjain07](https://github.com/amarjain07), [@TasneemBohra](https://github.com/TasneemBohra), and [@muditpant13](https://github.com/muditpant13) for their constant guidance and tutelage, without which embarking on a journey into Android Dev would have been a lot more haphazard, and tedious.
