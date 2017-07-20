@@ -33,6 +33,11 @@ compile 'com.squareup.retrofit2:converter-gson:2.1.0'
 compile 'com.google.code.gson:gson:2.8.0'
 compile 'com.github.bumptech.glide:glide:3.7.0'
 ```
+## Installation
+- Clone the project : `git clone "https://github.com/hriddhidey/Myntra-Demo.git"`.
+- Open [Android Studio](https://developer.android.com/studio/index.html), and import the root folder of the cloned repository as a project (_File > Open_). 
+- Gradle will perform a basic sync for project, and all dependencies. If gradle sync fails for lack of target SDK, kindly follow Android Studio's promopts to install the same.
+- Run application in AVD (_Android Virtual Device_) Emulator, or connect to phone, and use USB Debugging to run application on your phone.
 
 ## Acknowledgements
 I would like to express sincere gratitude to [@amarjain07](https://github.com/amarjain07) and [@muditpant13](https://github.com/muditpant13) for their constant guidance and tutelage, without which embarking a journey into Android Dev would have been a lot more haphazard, and tedious.
